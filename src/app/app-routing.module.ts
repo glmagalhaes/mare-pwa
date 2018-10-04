@@ -14,7 +14,9 @@ const routes: Routes = [
   {
     path: 'list',
     loadChildren: './list/list.module#ListPageModule'
-  }
+  },
+  { path: 'relatorios', loadChildren: './relatorios/relatorios.module#RelatoriosPageModule' },
+  { path: 'relatorioNovo', loadChildren: './relatorio-novo/relatorio-novo.module#RelatorioNovoPageModule' }
 ];
 
 @NgModule({
